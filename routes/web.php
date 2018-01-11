@@ -20,4 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('leaders', 'LeaderController@index');
+Route::get('leader/{leader}', 'LeaderController@edit');
 Route::get('leaders/data', 'LeaderController@getData')->name('leaders/data');
