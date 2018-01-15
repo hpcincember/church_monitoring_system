@@ -8,7 +8,7 @@
                     <div class="panel-heading">Leaders</div>
 
                     <div class="panel-body">
-                        <table class="table table-bordered table-striped" id="leaders-table">
+                        <table class="table table-striped table-hover" id="leaders-table">
                             <thead>
                             <tr>
                                 <th>Id</th>
@@ -62,7 +62,7 @@
                 { data: 'cell_group', name: 'cell_group' },
                 { data: 'birth_date', name: 'birth_date' },
                 { data: 'first_attend', name: 'first_attend' },
-                {data: 'action', name: 'action', orderable: false, searchable: false}
+                { data: 'action', name: 'action', orderable: false, searchable: false}
             ]
         });
     });
